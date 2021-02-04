@@ -1,7 +1,8 @@
 import React ,{Component} from 'react';
-import CardList from './CardList';
-import {medici} from './medici';
-import SearchBox from './SearchBox';
+import CardList from '../components/CardList';
+import {medici} from '../components/medici';
+import SearchBox from '../components/SearchBox';
+import ErrorBoundry from '../components/ErrorBoundry';
 
 
 class App extends  Component{
@@ -28,7 +29,9 @@ class App extends  Component{
             <div>   
                 <h1>Medici</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
-                <CardList  medici={filterMedici}/>
+                <ErrorBoundry>
+                    <CardList  medici={filterMedici}/>
+                </ErrorBoundry>
             </div>
             
         );
