@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.root{
+  display: grid;
+  grid-template-columns: repeat(4);
+}
+.card{
+  display: flex;
+  flex-direction: row;
+}
