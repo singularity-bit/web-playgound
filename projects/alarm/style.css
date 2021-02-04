@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+#currentTime{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+}
+#selectTime{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+}
