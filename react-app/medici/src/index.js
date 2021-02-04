@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import CardList from './CardList';
+
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {medici} from './medici';
 
 ReactDOM.render(
-              <CardList  medici={medici}/>
-              , document.getElementById('root')
+                <App />
+                , document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

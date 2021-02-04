@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './index.css';
 const MediCard=({name,email})=>{
 
     return(
-        <div>
+        <div className='card'>
             <img alt="ss" src=""/>
             <div>
                 <h1>{name}</h1>
