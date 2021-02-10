@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Input from './components/Input';
-import Image from './components/Image';
+import Input from './components/Input box/Input';
+import Image from './components/image box/Image';
 import Clarifai from 'clarifai';
 
 const app=new Clarifai.App({
