@@ -1,10 +1,13 @@
 import React from 'react';
 import './Image.css';
 
-const Image= ()=>{
+const Image= ({imageUrl})=>{
     return(
-        <div className="image">
-            Image
+        <div className="wrap">
+            <div className="image">
+                <img alt=''  src={imageUrl}/>
+            </div>
+            
         </div>
     )
 }
